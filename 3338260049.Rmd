@@ -1,0 +1,24 @@
+---
+title: "3338260049_FitriaNovalina"
+output: github_document
+date: "2026-09-19"
+---
+
+```{r}
+cek_ganjil_genap<- function(angka){ 
+  if(angka%%2==0){ return("genap") 
+  }else{ 
+  return("ganjil") 
+  } 
+  }
+
+cek_ganjil_genap(5) 
+cek_ganjil_genap(8) 
+cek_ganjil_genap(75) 
+cek_ganjil_genap(26) 
+cek_ganjil_genap(369) 
+cek_ganjil_genap(982) 
+cek_ganjil_genap(4673) 
+cek_ganjil_genap(5298)
+
+```
